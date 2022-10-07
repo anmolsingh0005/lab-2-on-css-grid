@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.cssgrid{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    justify-items: stretch;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: blue;
+    outline: 10px solid blue;
+}
+.heading{
+    text-align: center; 
+    color: white; 
+}
+
+img{
+    height: 300px;
+    outline: 3px solid blue;
+    background-color: black;
+}
